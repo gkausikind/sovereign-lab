@@ -1,0 +1,122 @@
+[
+  {
+    "id": "RBI-2018",
+    "act": "RBI",
+    "title": "Storage of Payment System Data - India Only",
+    "year": 2018,
+    "rule": "All data relating to payment systems must be stored in India only. No copy outside India.",
+    "applies_to": "Payment data, transactions",
+    "penalty": "RBI Audit, License Risk",
+    "source": "RBI Circular DPSS.CO.OD.No.S1088",
+    "allowed_regions": ["IN"],
+    "keywords": ["payment", "RBI", "localization"]
+  },
+  {
+    "id": "DPDP-16",
+    "act": "DPDP Act 2023",
+    "title": "Cross-border transfer restriction",
+    "year": 2023,
+    "rule": "Govt may notify that personal data cannot be transferred outside India. Transfer needs consent.",
+    "applies_to": "Aadhaar, PAN, financial data",
+    "penalty": "Up to 250Cr INR",
+    "source": "DPDP Sec 16",
+    "allowed_regions": ["IN", "Conditional"],
+    "keywords": ["DPDP", "consent", "Aadhaar"]
+  },
+  {
+    "id": "GDPR-44",
+    "act": "GDPR",
+    "title": "Adequacy or SCCs required for EU transfer",
+    "year": 2018,
+    "rule": "Transfer outside EU only with adequacy decision or SCCs / BCRs.",
+    "applies_to": "EU personal data",
+    "penalty": "20M EUR or 4% turnover",
+    "source": "GDPR Art 44-49",
+    "allowed_regions": ["EU", "Adequate", "With SCCs"],
+    "keywords": ["GDPR", "SCC", "EU"]
+  },
+  {
+    "id": "RBI-TOKEN",
+    "act": "RBI",
+    "title": "Tokenisation of card data",
+    "year": 2022,
+    "rule": "No entity other than issuer can store actual card data. Must tokenise.",
+    "applies_to": "Card data",
+    "penalty": "Non-compliance penalty",
+    "source": "RBI Tokenisation Guidelines",
+    "allowed_regions": ["IN Token Vault"],
+    "keywords": ["card", "token", "PCI"]
+  },
+  {
+    "id": "DPDP-8",
+    "act": "DPDP Act 2023",
+    "title": "Data fiduciary must ensure safeguards",
+    "year": 2023,
+    "rule": "Data fiduciary must protect personal data and ensure processor has safeguards.",
+    "applies_to": "All personal data processing",
+    "penalty": "High",
+    "source": "DPDP Sec 8",
+    "allowed_regions": ["IN"],
+    "keywords": ["safeguard", "fiduciary"]
+  },
+  {
+    "id": "GDPR-5",
+    "act": "GDPR",
+    "title": "Purpose limitation and data minimisation",
+    "year": 2018,
+    "rule": "Collect only what is necessary for specified purpose.",
+    "applies_to": "EU data",
+    "penalty": "10M EUR",
+    "source": "GDPR Art 5",
+    "allowed_regions": ["EU"],
+    "keywords": ["minimisation", "purpose"]
+  },
+  {
+    "id": "RBI-CYBER",
+    "act": "RBI",
+    "title": "Cyber Security Framework for Banks",
+    "year": 2016,
+    "rule": "Banks must have audit trail, access logs for all data access.",
+    "applies_to": "Bank systems",
+    "penalty": "Audit observation",
+    "source": "RBI Cyber Security Circular",
+    "allowed_regions": ["IN"],
+    "keywords": ["audit", "log", "cyber"]
+  },
+  {
+    "id": "DPDP-CONSENT",
+    "act": "DPDP Act 2023",
+    "title": "Consent must be free, specific, informed",
+    "year": 2023,
+    "rule": "Consent artifact must be maintained, withdrawable.",
+    "applies_to": "Personal data",
+    "penalty": "250Cr",
+    "source": "DPDP Sec 6",
+    "allowed_regions": ["IN"],
+    "keywords": ["consent", "withdraw"]
+  },
+  {
+    "id": "GDPR-33",
+    "act": "GDPR",
+    "title": "Breach notification within 72 hours",
+    "year": 2018,
+    "rule": "Notify DPA within 72 hours of breach awareness.",
+    "applies_to": "EU data breaches",
+    "penalty": "10M EUR",
+    "source": "GDPR Art 33",
+    "allowed_regions": ["EU"],
+    "keywords": ["breach", "72 hours"]
+  },
+  {
+    "id": "ERM-MODEL",
+    "act": "Enterprise Risk",
+    "title": "AI Model Risk must be logged",
+    "year": 2024,
+    "rule": "All AI models using PII must have model risk register, evals, and approval.",
+    "applies_to": "AI models in banks",
+    "penalty": "Model Risk Management finding",
+    "source": "OCC SR 11-7, RBI Model Risk",
+    "allowed_regions": ["Governance Required"],
+    "keywords": ["model risk", "AI", "evals"]
+  }
+]
