@@ -1,0 +1,10 @@
+[
+  {"id":"RISK-01","family":"Data Residency","desc":"Payment data stored outside India","reg_id":"RBI-2018","likelihood":"High","impact":"Critical","control":"Geo-fence storage to IN region, block S3 cross-region replication"},
+  {"id":"RISK-02","family":"Cross-Border Transfer","desc":"Aadhaar/PAN transferred without consent/notify","reg_id":"DPDP-16","likelihood":"Medium","impact":"Critical","control":"DPDP consent ledger + allowlist transfer to approved regions only"},
+  {"id":"RISK-03","family":"Card Data Storage","desc":"Actual card number stored by merchant","reg_id":"RBI-TOKEN","likelihood":"High","impact":"High","control":"Tokenization vault, PAN truncation"},
+  {"id":"RISK-04","family":"Purpose Limitation","desc":"Model uses more PII than needed","reg_id":"GDPR-5","likelihood":"Medium","impact":"Medium","control":"Data minimisation check in feature store"},
+  {"id":"RISK-05","family":"Model Risk","desc":"AI model using PII without risk register","reg_id":"ERM-MODEL","likelihood":"High","impact":"High","control":"Model risk register, evals, approval workflow"},
+  {"id":"RISK-06","family":"Breach Notification","desc":"Breach not reported in 72h","reg_id":"GDPR-33","likelihood":"Low","impact":"Critical","control":"72h breach SOP + automated alerting"},
+  {"id":"RISK-07","family":"Audit & Traceability","desc":"No audit trail for data access","reg_id":"RBI-CYBER","likelihood":"Medium","impact":"High","control":"Immutable audit logs for all data/model access"},
+  {"id":"RISK-08","family":"Consent Management","desc":"Consent not withdrawable / not logged","reg_id":"DPDP-CONSENT","likelihood":"Medium","impact":"High","control":"Consent artifact store, revocation propagation"}
+]
