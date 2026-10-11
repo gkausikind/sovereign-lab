@@ -8,3 +8,4 @@
   {"id":"RISK-07","family":"Audit & Traceability","desc":"No audit trail for data access","reg_id":"RBI-CYBER","likelihood":"Medium","impact":"High","control":"Immutable audit logs for all data/model access"},
   {"id":"RISK-08","family":"Consent Management","desc":"Consent not withdrawable / not logged","reg_id":"DPDP-CONSENT","likelihood":"Medium","impact":"High","control":"Consent artifact store, revocation propagation"}
 ]
+
