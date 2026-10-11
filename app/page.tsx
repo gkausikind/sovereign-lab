@@ -64,6 +64,18 @@ export default function Home() {
             <div className="mt-4 text-xs text-zinc-500">ghoshk.com/lab/day-04-audit-trail →</div>
           </a>
 
+          {/* DAY 05 - LIVE NOW */}
+          <a href="/lab/day-05-sandboxing" className="group p-6 rounded-2xl border border-zinc-800 bg-zinc-900/50 hover:bg-zinc-900 hover:border-orange-500/30 transition">
+            <div className="flex justify-between items-start">
+              <span className="text-xs px-2 py-1 rounded bg-green-500/10 text-green-300 border border-green-500/20">LIVE</span>
+              <span className="text-xs text-zinc-500">DAY 05 • SANDBOXING LAYER</span>
+            </div>
+            <h3 className="mt-4 text-xl font-semibold group-hover:text-orange-400 transition">E2B Sandboxing - Firecracker microVMs</h3>
+            <p className="mt-2 text-sm text-zinc-400">PII never leaves VM. Blocks fetch, fs, console.log(data). Only hash leaves.</p>
+            <div className="mt-4 text-xs text-zinc-500">ghoshk.com/lab/day-05-sandboxing →</div>
+          </a>
+
+
           {/* CONCEPT LAB */}
           <a href="/lab/cloud-storage-101" className="group p-6 rounded-2xl border border-zinc-800 bg-zinc-900/30 hover:bg-zinc-900 hover:border-zinc-700 transition">
             <div className="flex justify-between items-start">
@@ -75,15 +87,7 @@ export default function Home() {
             <div className="mt-4 text-xs text-zinc-500">ghoshk.com/lab/cloud-storage-101 →</div>
           </a>
 
-          {/* DAY 05 NEXT */}
-          <div className="p-6 rounded-2xl border border-zinc-800/50 bg-zinc-900/20 opacity-60">
-            <div className="flex justify-between items-start">
-              <span className="text-xs px-2 py-1 rounded bg-zinc-800 text-zinc-500">NEXT</span>
-              <span className="text-xs text-zinc-600">DAY 05</span>
-            </div>
-            <h3 className="mt-4 text-xl font-semibold text-zinc-500">E2B Sandboxing - Firecracker microVMs</h3>
-            <p className="mt-2 text-sm text-zinc-600">PII never leaves VM. Safe execution for Tools via MCP.</p>
-          </div>
+         
 
         </div>
 
