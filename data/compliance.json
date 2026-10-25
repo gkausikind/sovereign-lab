@@ -1,0 +1,195 @@
+[
+  {
+    "id": "IN-INC-01",
+    "category": "Incorporation",
+    "title": "Resident Director",
+    "rule": "At least one director must have stayed in India for 182 days in the financial year",
+    "law_ref": "Companies Act 2013, Sec 149",
+    "authority": "MCA",
+    "applies_to": [
+      "Pvt Ltd",
+      "LLP"
+    ],
+    "deadline": "At incorporation",
+    "penalty": "Incorporation rejected",
+    "docs_needed": [
+      "Passport",
+      "Address proof",
+      "DIN",
+      "DSC"
+    ]
+  },
+  {
+    "id": "IN-INC-02",
+    "category": "Incorporation",
+    "title": "SPICe+ Filing",
+    "rule": "Single integrated form covering incorporation, PAN, TAN, EPFO, ESIC, bank account",
+    "law_ref": "MCA SPICe+",
+    "authority": "MCA",
+    "applies_to": [
+      "Pvt Ltd"
+    ],
+    "deadline": "Day 15-30",
+    "penalty": "Delay in CIN",
+    "docs_needed": [
+      "MoA",
+      "AoA",
+      "Registered office proof"
+    ]
+  },
+  {
+    "id": "IN-FDI-01",
+    "category": "FDI / FEMA",
+    "title": "FC-GPR Filing",
+    "rule": "File FC-GPR within 30 days of share allotment to foreign investor",
+    "law_ref": "FEMA, RBI Master Direction",
+    "authority": "RBI",
+    "applies_to": [
+      "Pvt Ltd"
+    ],
+    "deadline": "30 days after allotment",
+    "penalty": "RBI compounding",
+    "docs_needed": [
+      "Board resolution",
+      "Valuation report",
+      "FIRC"
+    ]
+  },
+  {
+    "id": "IN-FDI-02",
+    "category": "FDI / FEMA",
+    "title": "FLA Return",
+    "rule": "Annual FLA return by July 15 for companies with foreign investment",
+    "law_ref": "FEMA",
+    "authority": "RBI",
+    "applies_to": [
+      "Pvt Ltd"
+    ],
+    "deadline": "July 15 annually",
+    "penalty": "Penalty under FEMA",
+    "docs_needed": [
+      "Audited financials",
+      "Shareholding pattern"
+    ]
+  },
+  {
+    "id": "IN-TAX-01",
+    "category": "Tax",
+    "title": "GST Registration",
+    "rule": "Mandatory if turnover exceeds Rs 20 lakhs or interstate supply",
+    "law_ref": "CGST Act 2017",
+    "authority": "CBIC",
+    "applies_to": [
+      "Pvt Ltd",
+      "LLP"
+    ],
+    "deadline": "Within 30 days of crossing threshold",
+    "penalty": "Late fee + interest",
+    "docs_needed": [
+      "PAN",
+      "Address proof",
+      "Bank details"
+    ]
+  },
+  {
+    "id": "IN-TAX-02",
+    "category": "Tax",
+    "title": "PAN & TAN",
+    "rule": "Auto-generated via SPICe+ at incorporation",
+    "law_ref": "Income Tax Act 1961",
+    "authority": "CBDT",
+    "applies_to": [
+      "Pvt Ltd"
+    ],
+    "deadline": "At incorporation",
+    "penalty": "Cannot file returns without it",
+    "docs_needed": [
+      "SPICe+"
+    ]
+  },
+  {
+    "id": "IN-LAB-01",
+    "category": "Labour",
+    "title": "EPFO Registration",
+    "rule": "Mandatory if 20+ employees",
+    "law_ref": "EPF Act 1952",
+    "authority": "EPFO",
+    "applies_to": [
+      "Pvt Ltd"
+    ],
+    "deadline": "Within 30 days of hitting 20 employees",
+    "penalty": "Damages + interest",
+    "docs_needed": [
+      "Company PAN",
+      "Employee list"
+    ]
+  },
+  {
+    "id": "IN-LAB-02",
+    "category": "Labour",
+    "title": "ESIC Registration",
+    "rule": "Mandatory if 10+ employees drawing up to Rs 21,000/month",
+    "law_ref": "ESI Act 1948",
+    "authority": "ESIC",
+    "applies_to": [
+      "Pvt Ltd"
+    ],
+    "deadline": "Within 15 days",
+    "penalty": "Penalty",
+    "docs_needed": [
+      "Employee details"
+    ]
+  },
+  {
+    "id": "IN-DATA-01",
+    "category": "Data",
+    "title": "DPDP Cross-Border Transfer",
+    "rule": "Personal data cannot be transferred outside India if notified by Govt",
+    "law_ref": "DPDP Act 2023, Sec 16",
+    "authority": "DPA",
+    "applies_to": [
+      "All"
+    ],
+    "deadline": "Ongoing",
+    "penalty": "Up to Rs 250 Cr",
+    "docs_needed": [
+      "Consent ledger",
+      "Transfer assessment"
+    ]
+  },
+  {
+    "id": "IN-ANNUAL-01",
+    "category": "Annual",
+    "title": "INC-20A Commencement",
+    "rule": "File INC-20A within 180 days of incorporation",
+    "law_ref": "Companies Act 2013",
+    "authority": "MCA",
+    "applies_to": [
+      "Pvt Ltd"
+    ],
+    "deadline": "180 days",
+    "penalty": "Rs 50,000 + Rs 1,000/day on officers",
+    "docs_needed": [
+      "Bank statement",
+      "Proof of capital"
+    ]
+  },
+  {
+    "id": "IN-RBI-01",
+    "category": "RBI",
+    "title": "Branch Office Approval",
+    "rule": "RBI approval via AD Cat-I bank required for Branch Office",
+    "law_ref": "FEMA",
+    "authority": "RBI",
+    "applies_to": [
+      "Branch Office"
+    ],
+    "deadline": "Before operations",
+    "penalty": "Operating without approval illegal",
+    "docs_needed": [
+      "Parent financials",
+      "Board resolution",
+      "Business plan"
+    ]
+  }
+]
