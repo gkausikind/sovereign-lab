@@ -45,11 +45,11 @@ export default function IndiaEntry() {
     <div className="min-h-screen bg-white text-slate-900">
       <header className="border-b bg-[#0F2040] text-white px-6 py-4 flex justify-between">
         <div><div className="text-xs tracking-widest text-[#C5A880]">GHOSHK.COM // INDIA ENTRY</div><h1 className="text-2xl font-bold">India Entry Compliance Advisor</h1><p className="text-sm text-slate-300">By GhoshK • Audit Ready • Source Cited • Corpus v1.2 Oct 2026</p></div>
-        <div className="text-right"><div className="bg-white/10 px-3 py-1 rounded-full text-xs">Assessment Questionnaire {answeredCount}/5</div><div className="text-[11px] text-slate-300 mt-1">{answeredCount*20}% complete</div></div>
+        <div className="text-right"><div className="text-xs text-slate-300">Corpus v1.2 • Oct 2026</div></div>
       </header>
       <div className="grid lg:grid-cols-[32%_38%_30%] gap-0">
         <div className="p-6 border-r">
-          <h2 className="font-bold">Mandatory Assessment</h2>
+          <div className="flex items-center justify-between"><h2 className="font-bold">Mandatory Assessment</h2><div className="flex flex-col items-end"><span className="bg-[#0F2040] text-white px-3 py-1 rounded-full text-xs font-semibold">Assessment Questionnaire {answeredCount}/5</span><span className="text-[11px] text-slate-500 mt-1">{answeredCount*20}% complete</span></div></div><div className="w-full bg-slate-200 h-1.5 rounded-full mt-2 mb-4"><div className="bg-[#C5A880] h-1.5 rounded-full" style={{width:`${answeredCount*20}%`}}></div></div>
           <p className="text-sm text-slate-500 mb-4">Answer all 5. Follow-ups appear based on your answers.</p>
           {qaSteps.map(s=>(
             <div key={s.id} className="mb-5 p-4 rounded-xl border">
